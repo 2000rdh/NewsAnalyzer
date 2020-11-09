@@ -35,8 +35,8 @@ def get_prediction(content, project_id, model_id):
 def predict(line):
 	#if __name__ == '__main__':
   		content = line
-  		project_id = "test-yeet-111"
-  		model_id = "TCN6320210674505053725"
+  		project_id = ""
+  		model_id = ""
   		return (get_prediction(content, project_id,  model_id))
 
 def refine(term):
