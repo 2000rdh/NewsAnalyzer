@@ -14,7 +14,7 @@ from google.cloud.automl_v1beta1.proto import service_pb2
 from newspaper import Article
 import nltk
 
-credential_path = "C:\\Users\\2000r\\Documents\\news\\test-yeet-111-f662e6c96fb8.json"
+credential_path = ""
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = credential_path
 
 nltk.download('punkt')
